@@ -57,5 +57,9 @@ const aliases = {}
 |
 */
 const commands = []
+sed -i 's/8080/3000/g' app.js
+const PORT = process.env.PORT || 3000;
+
+
 
 module.exports = { providers, aceProviders, aliases, commands }
